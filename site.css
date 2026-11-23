@@ -1,0 +1,18 @@
+:root {
+  color-scheme: light;
+  background: #f1f0eb;
+  color: #1e2d3a;
+  font: 1.0625rem/1.65 system-ui, sans-serif;
+}
+body { margin: 0; }
+main { max-inline-size: 40rem; margin: auto; padding: clamp(1.25rem, 7vw, 4rem); }
+header { display: flex; align-items: center; gap: 1rem; border-block-end: 1px solid #a9b7c1; padding-block-end: 1rem; }
+header img { border-radius: .75rem; }
+header a { color: inherit; font-weight: 700; }
+h1 { font-size: clamp(1.9rem, 5vw, 3rem); line-height: 1.18; letter-spacing: -.025em; }
+h2 { font-size: 1.2rem; line-height: 1.35; }
+a { color: #2c5578; text-underline-offset: .18em; }
+:lang(ko) { word-break: keep-all; }
+main { overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+footer { margin-block-start: 2.5rem; border-block-start: 1px solid #a9b7c1; padding-block-start: 1rem; }
